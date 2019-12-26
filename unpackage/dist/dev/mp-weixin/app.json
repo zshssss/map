@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/person/person",
+    "pages/frends/frends"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "default"
+  },
+  "tabBar": {
+    "color": "#C0C0C0",
+    "selectedColor": "#C8F2C2",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "map",
+        "selectedIconPath": "static/map-active.png",
+        "iconPath": "static/map-default.png"
+      },
+      {
+        "pagePath": "pages/frends/frends",
+        "text": "frends",
+        "selectedIconPath": "static/frends-active.png",
+        "iconPath": "static/frends-default.png"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "person",
+        "selectedIconPath": "static/person-active.png",
+        "iconPath": "static/person-default.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "学习调试"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

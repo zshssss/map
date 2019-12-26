@@ -1,0 +1,55 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		}
+	    ,{
+            "path" : "pages/person/person",
+            "style" : {
+				"navigationBarTitleText":"frends"
+			}
+        }
+        ,{
+            "path" : "pages/frends/frends",
+            "style" : {
+				"navigationBarTitleText":"person"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle":"default"
+	},
+	"tabBar": {
+		"color":"#C0C0C0",
+		"selectedColor": "#C8F2C2",
+		"backgroundColor":"#FFFFFF",
+		"list": [
+			{
+				"pagePath":"pages/index/index",
+				"text":"map",
+				"selectedIconPath":"static/map-active.png",
+				"iconPath":"static/map-default.png"
+			},
+			{
+				"pagePath":"pages/frends/frends",
+				"text":"frends",
+				"selectedIconPath":"static/frends-active.png",
+				"iconPath":"static/frends-default.png"
+			},
+			{
+				"pagePath":"pages/person/person",
+				"text":"person",
+				"selectedIconPath":"static/person-active.png",
+				"iconPath":"static/person-default.png"
+			}
+		]
+	}
+}

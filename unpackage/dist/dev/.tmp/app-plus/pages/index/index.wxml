@@ -1,0 +1,1 @@
+<view class="content"><block wx:if="{{src}}"><image style="width:100%;" src="{{'http://luoxiaohei.oss-cn-beijing.aliyuncs.com/'+src}}" mode="widthFix" data-event-opts="{{[['tap',[['upf']]]]}}" bindtap="__e"></image></block><map style="height:100%;width:100%;" latitude="{{31.214087}}" longitude="{{121.530684}}"></map></view>
